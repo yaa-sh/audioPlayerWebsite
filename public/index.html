@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangeet Box</title>
+    <link rel = "icon" type = "image/icon" href = "favicon_logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class = "website_logo"><img src="site_logo.png" alt="Sangeet Box">Sangeet Box</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Hindi Hits</h1>
+            <div class="songHolder">
+                <div class="songItem">
+                    <img>
+                    <span class="songName"><u>295</u></span>
+                    <span class="songDisp"><span><u>4:30</u></span> <i id ="1" class="fa-sharp songPlayBtn fa-solid fa-circle-play"></i> </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"><u>East Side Flow</u></span>
+                    <span class="songDisp"><span><u>3:44</u></span> <i id ="2" class="fa-sharp songPlayBtn fa-solid fa-circle-play"></i> </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"><u>Edamame(feat. Rich Brian)</u></span>
+                    <span class="songDisp"><span><u>2:13</u></span> <i id ="3" class="fa-sharp songPlayBtn fa-solid fa-circle-play"></i> </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"><u>Dilli Waali Baatcheet</u></span>
+                    <span class="songDisp"><span><u>3:26</u></span> <i id ="4" class="fa-sharp songPlayBtn fa-solid fa-circle-play"></i> </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"><u>Trap Munde</u></span>
+                    <span class="songDisp"><span><u>4:01</u></span> <i id ="5" class="fa-sharp songPlayBtn fa-solid fa-circle-play"></i> </span>
+                </div>
+                <div class="songItem">
+                    <img>
+                    <span class="songName"><u>Desi Dan Bilzerian</u></span>
+                    <span class="songDisp"><span><u>3:38</u></span> <i id ="6" class="fa-sharp songPlayBtn fa-solid fa-circle-play"></i> </span>
+                </div>
+            </div>
+        </div>
+        <div class="song_bg"></div>
+    </div>
+
+    <div class="bottom_desc">
+        <input type="range" name="range" id="progress_bar">
+        <div class="icons">
+            <!-- fontawesome icons -->
+
+            <i id="previousSong" class="fa-solid fa-backward-step"></i>
+
+            <i class="fa-sharp fa-solid fa-circle-play" id="mainPlay"></i>
+
+            <i id ="nextSong" class="fa-solid fa-forward-step"></i>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2f38c09f13.js" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+    
+</body>
+</html>
